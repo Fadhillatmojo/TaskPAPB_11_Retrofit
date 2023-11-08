@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@color/blue_500"
+    android:padding="15dp"
+    android:layout_marginBottom="15dp">
+    <ImageView
+        android:id="@+id/image_lazday"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/good"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp">
+
+        <TextView
+            android:id="@+id/txt_film_lazday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Title"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/fontbold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginHorizontal="8dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
